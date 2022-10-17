@@ -9,6 +9,7 @@ namespace QuickSort
     internal class Program
     {
         private int[] arr = new int[20];
+        private int cmp_count = 0;
         
         static void Main(string[] args)
         {
