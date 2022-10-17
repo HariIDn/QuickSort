@@ -102,10 +102,20 @@ namespace QuickSort
         }
         int getSize()
         {
-            return n;
+            return (n);
         }
         static void Main(string[] args)
         {
+            Program myList = new Program();
+
+            myList.read();
+
+            myList.q_sort(0, myList.getSize() - 1);
+
+            myList.display();
+
+            Console.WriteLine("\n\nPress Enter to exit");
+            Console.Read();
         }
     }
 }
